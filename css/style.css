@@ -14,6 +14,7 @@ body{
 
 .bg-lightblu{
     background-color: #b5ddff;
+    border-radius: 3%;
 
 }
 
@@ -57,7 +58,7 @@ ul{
 }
 
 .container1{
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
     text-align: center;
     align-items: center;
@@ -66,6 +67,7 @@ ul{
 
 img{
     width: 100%;
+    
 }
 h2{
     font-size: 1,5rem;
@@ -89,3 +91,53 @@ h2{
     display: none;
     
 }
+.big-block{
+width: 60%;
+
+
+
+}
+.medium-block{
+    margin-bottom: 1.2rem;
+
+    
+}
+.small-blocks{
+    margin-bottom: 1.2rem;
+}
+
+.img-phone{
+    width: 80%;
+}
+h2{
+    padding-top: 1rem;
+    font-size: 25px;
+    width: 100%;
+    
+}
+.text1{
+text-align: left;
+font-size: 13px;
+padding: 1.5rem 3rem 1.5rem 3rem;
+width: 100%;
+
+}
+.text2{
+    font-size: 13px;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+}
+.button-app{
+    width: 240px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color:#0084fd ;
+    margin-bottom: 1.5rem;
+    
+}
+.align-text{
+    justify-content: center;
+}
+
+
+
