@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Nunito Sans', sans-serif;
+   
 }
 
 .bg-blu{
@@ -14,7 +15,7 @@ body{
 
 .bg-lightblu{
     background-color: #b5ddff;
-    border-radius: 3%;
+    border-radius: 7%;
 
 }
 .color-blu{
@@ -99,9 +100,13 @@ width: 80%;
 div.medium-block, div.small-block, div.small-card{
     margin: 2rem 1.2rem;  
 }
+div.medium-block{
+    height:470px;
+}
 
 .img-phone{
     width: 80%;
+    height: 250px;
 }
 h2{
     padding-top: 1rem;
@@ -132,40 +137,51 @@ p.text2, p.text1 {
 .align-text{
     justify-content: center;
 }
+.fa-brands{
+    margin-right: 10px;
+}
+
 /************************************************
     SOLUZIONE RESPONSIVE
- ************************************************/
-
- @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
     .container1{
-        max-width: 80%;
-       
-        
+        max-width: 70%;  
     }
-    
     div.mixt-col{
-        max-width: 100%;
+        width: 100%;
         flex-direction: row;
         display: flex;
+        
+       
     }
     .medium-block{
-        width: 73%;
+        width: calc((100% / 3) * 2);
         text-align: left;
         padding-left: 5%;
         
     }
     .small-card{
-        width: 27%;
+        width: calc(100% / 3);
+       
     }
     
     div.same-col{
-        max-width: calc(100% / 3);
+        width: 100%;
         display: flex;
         flex-direction: row;
     }
-
-    p.text2, p.text1 {
+    .small-block{
+        width: calc(100% / 3);
+    }
+    
+    div.medium-block, div.small-block, div.small-card{
+        margin: 1rem 1rem;  
+    }
+    
+    p.text1 {
         width: 100%;
+        padding: 2rem 0 2rem 0;
+       
       
     }
     .nav-bar{
@@ -177,6 +193,7 @@ p.text2, p.text1 {
     }
     .img-phone{
         width: 50%;
+       
 
     }
     p.text1{
@@ -196,10 +213,38 @@ p.text2, p.text1 {
     }
     }
 
-           
+ ************************************************/
+     div.strategic-plan{
+      position: relative;
+     }
+    .card2{
+        border-radius: 30px;
+        margin: 1rem 2rem 0 2rem;
+        
+    }
+    .img1{
+        padding-top:3rem
+    }
+    .img2{
+        padding: rem;
+    }
+    .text3 {
+        text-align: left;
+        padding: 2rem  1.5rem 2rem;
+        font-size:13px;
+        
+    }
+    .text4{
+        text-align: center;
+        color: rgb(151, 151, 151);
+        padding: 1rem 1rem 1.5rem 1rem;
+    }
+    .symbol{
+        width: 30px;
+        height: 30px;
+        background-color: #9792e4;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 45%;
+    }
     
-    
- 
- 
-
-
