@@ -17,6 +17,9 @@ body{
     border-radius: 3%;
 
 }
+.color-blu{
+    color: #0084fd;
+}
 
 .bg-viola{
     background-color: #9792e4;
@@ -58,19 +61,15 @@ ul{
 }
 
 .container1{
-    max-width: 350px;
+    max-width: 400px;
     margin: 0 auto;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-img{
-    width: 100%;
-    
-}
 h2{
-    font-size: 1,5rem;
+    font-size: 1rem;
     color:#0084fd ;
 }
 
@@ -91,19 +90,14 @@ h2{
     display: none;
     
 }
-.big-block{
-width: 60%;
+div.big-block{
+width: 80%;
 
 
 
 }
-.medium-block{
-    margin-bottom: 1.2rem;
-
-    
-}
-.small-blocks{
-    margin-bottom: 1.2rem;
+div.medium-block, div.small-block, div.small-card{
+    margin: 2rem 1.2rem;  
 }
 
 .img-phone{
@@ -111,23 +105,23 @@ width: 60%;
 }
 h2{
     padding-top: 1rem;
-    font-size: 25px;
+    font-size: 18px;
     width: 100%;
-    
+   
 }
 .text1{
-text-align: left;
-font-size: 13px;
-padding: 1.5rem 3rem 1.5rem 3rem;
-width: 100%;
-
+    text-align: left;
 }
 .text2{
-    font-size: 13px;
+    text-align: center;
+}
+p.text2, p.text1 {
+    width: 100%;
+    font-size: .8rem;
     padding: 1.5rem 3rem 1.5rem 3rem;
 }
 .button-app{
-    width: 240px;
+    width: 70%;
     height: 30px;
     border-radius: 15px;
     border: none;
@@ -138,6 +132,74 @@ width: 100%;
 .align-text{
     justify-content: center;
 }
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
 
+ @media screen and (min-width: 768px) {
+    .container1{
+        max-width: 80%;
+       
+        
+    }
+    
+    div.mixt-col{
+        max-width: 100%;
+        flex-direction: row;
+        display: flex;
+    }
+    .medium-block{
+        width: 73%;
+        text-align: left;
+        padding-left: 5%;
+        
+    }
+    .small-card{
+        width: 27%;
+    }
+    
+    div.same-col{
+        max-width: calc(100% / 3);
+        display: flex;
+        flex-direction: row;
+    }
+
+    p.text2, p.text1 {
+        width: 100%;
+      
+    }
+    .nav-bar{
+        height: 50px;
+    }
+    .logo{
+        width: 10%;
+        height: 65%;    
+    }
+    .img-phone{
+        width: 50%;
+
+    }
+    p.text1{
+        padding: 1.5rem 1.5rem;
+        margin-right: 10%;
+    }
+
+    .button-app{
+        width: 45%;
+    height: 30px;
+    margin-left: 5%;
+    }
+
+    h2{
+       margin-left: 5%;
+        font-size: 20px;
+    }
+    }
+
+           
+    
+    
+ 
+ 
 
 
